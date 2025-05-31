@@ -10,6 +10,8 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.depromeet.streetdrop.global.common.presentation.HealthController;
+
 @WebMvcTest(controllers = {HealthController.class})
 @DisplayName("[API][Controller] 상태 체크용 API 테스트")
 class HealthControllerTest {
