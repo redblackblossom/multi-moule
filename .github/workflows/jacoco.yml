@@ -38,6 +38,7 @@ jobs:
         with:
           name: jacoco-report
           path: ./build/reports/tests/test/index.html
+          token: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Upload test coverage
         id: jacoco
