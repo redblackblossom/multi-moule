@@ -1,10 +1,14 @@
 package com.depromeet.streetdrop.global.error.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 
 import java.time.LocalDateTime;
 
 @Getter
+@Builder
+@AllArgsConstructor
 public class ErrorResponseDto {
 	private final LocalDateTime timestamp = LocalDateTime.now();
 	private final int status;

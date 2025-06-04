@@ -1,4 +1,4 @@
-package com.depromeet.streetdrop.api.area.village.controller;
+package com.depromeet.streetdrop.apis.area.village.controller;
 
 import static org.mockito.BDDMockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
