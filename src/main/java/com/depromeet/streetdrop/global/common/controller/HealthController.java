@@ -12,9 +12,4 @@ public class HealthController {
 	public String health() {
 		return "Application Health Good!";
 	}
-
-	@GetMapping("/test")
-	public String test() {
-		throw new NotFoundException(ErrorCode.NOT_FOUND);
-	}
 }
